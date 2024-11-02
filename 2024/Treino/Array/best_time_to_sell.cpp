@@ -50,9 +50,7 @@ int main() { _
             actual = prices[i];
         } else {
             actual = min(actual, prices[i]);
-            if (prices[i] - actual > profit) {
-                profit = prices[i] - actual;
-            }
+            profit = max(prices[i]-actual, profit);
         }
         
     }

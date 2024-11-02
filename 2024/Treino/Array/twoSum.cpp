@@ -39,8 +39,8 @@ https://leetcode.com/problems/two-sum/description/
 */
 
 int main() { _
-	vector<int> nums = {2, 7, 11, 15};
-	int target = 9;
+	vector<int> nums = { 1, 2, -1, -4};
+	int target = -1;
 
 	unordered_map<int, int> mapNums;
 
