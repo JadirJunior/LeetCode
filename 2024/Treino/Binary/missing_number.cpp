@@ -32,9 +32,9 @@ const ll LINF = 0x3f3f3f3f3f3f3f3fll;
 */
 
 /*
-Given an integer n, return an array ans of length n + 1 
-such that for each i (0 <= i <= n), 
-ans[i] is the number of 1's in the binary representation of i.
+Given an array nums containing n distinct numbers in the 
+range [0, n], return the only number in the range that is missing from the array.
+https://leetcode.com/problems/missing-number/description/
 */
 
 int main() { _
